@@ -10,22 +10,29 @@
 
 <div class="title2"> Prerequisites </div>
 <hr>
-To install PmAdminTool using Docker, a user requires a Docker Hub account with permission to access pmmaster1docker repositories.
+<p>
+To install PmAdminTool using Docker, a user requires a Docker Hub account with permission to access pmmaster1docker repositories. </p>
 
-If the account does not have permission to access the repositories, this link pmmaster1docker will not show any repository when it is opened. Please leave a message with your hub account name to request permission.
+<p>If the account does not have permission to access the repositories, this link pmmaster1docker will not show any repository when it is opened. Please leave a message with your hub account name to request permission.</p>
 
-To install PmAdminTool using Docker, the user needs to have Docker CE (Community Edition) installed on the computer in which they want to install PmAdminTool.
+<ul><li>To install PmAdminTool using Docker, the user needs to have Docker CE (Community Edition) installed on the computer in which they want to install PmAdminTool.</li></ul>
 
-As of June 2019, the free Docker CE supports most host operating systems for desktop users such as Windows, Mac, and popular Linux distributions. However, there are other options; Docker Toolbox, and Docker EE (Enterprise Edition). Docker Toolbox is a legacy solution for older operating systems that do not meet the requirements of Docker CE, and Docker EE (Enterprise Edition) is designed for enterprise development. See Docker Docs for details. It is recommended that Docker Toolbox be avoided as it has been deprecated.
-Deployment Structure
-Release 1.0.0 of the application uses four containers that interact as shown in the figure below.
+<p>As of June 2019, the free Docker CE supports most host operating systems for desktop users such as Windows, Mac, and popular Linux distributions. However, there are other options; Docker Toolbox, and Docker EE (Enterprise Edition). Docker Toolbox is a legacy solution for older operating systems that do not meet the requirements of Docker CE, and Docker EE (Enterprise Edition) is designed for enterprise development. See Docker Docs for details. It is recommended that Docker Toolbox be avoided as it has been deprecated.</p>
 
-Deployment
-The simple approach to handle with multiple containers in the same context is to use the docker-compose tool. The following is an example of the compose file for deploying PmAdminTool, policyDb, PMGateway and Redis.
+<div class="title2">
+Deployment Structure</div>
+<hr>
+<p>Release 1.0.0 of the application uses four containers that interact as shown in the figure below.</p>
+
+<div class="title2">
+Deployment</div>
+<hr>
+<p>
+The simple approach to handle with multiple containers in the same context is to use the docker-compose tool. The following is an example of the compose file for deploying PmAdminTool, policyDb, PMGateway and Redis.</p>
  
 File docker-compose
  
-Using a text editor, create a file named docker-compose.yml with the content above. Start your Docker Engine. Change directory to where your yml file is. From that directory, start up the application by executing docker-compose up command.
+<p>Using a text editor, create a file named docker-compose.yml with the content above. Start your Docker Engine. Change directory to where your yml file is. From that directory, start up the application by executing docker-compose up command.</p>
  
  </div>
 </body>
