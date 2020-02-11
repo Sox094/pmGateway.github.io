@@ -67,7 +67,7 @@
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             <span class="md-header-nav__topic">pm-admin-tool</span>
-            <span class="md-header-nav__topic">Examples</span>
+            <span class="md-header-nav__topic">Basic Installation Guide using Docker</span>
         
         </div>
       </div>
@@ -141,32 +141,12 @@
           </a>
       </li>
 
-      <li class="md-nav__item">
-          <a href="https://pm-master.github.io/policy-machine-core/functional-components/" title="Functional Components" class="md-nav__link">
-          Functional Components
-          </a>
-      </li>
-
-      <li class="md-nav__item">
-          <a href="https://pm-master.github.io/policy-machine-core/obligations/" title="Obligations" class="md-nav__link">
-          Obligations
-          </a>
-      </li>
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Examples
-      </label>
-    
-    <a href="index.html" title="Examples" class="md-nav__link md-nav__link--active">
-      Examples
-    </a>
-    
-      
+      <li class="md-nav__item md-nav__item--active">
+          <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+          <label class="md-nav__link md-nav__link--active" for="__toc">
+              Examples
+          </label>
+       
 <nav class="md-nav md-nav--secondary">
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
@@ -181,8 +161,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#graph-configuration-summary" class="md-nav__link">
-    Graph configuration summary
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
   </a>
   
 </li>
@@ -203,40 +183,6 @@
         
           <li class="md-nav__item">
   <a href="#visualization" class="md-nav__link">
-    Visualization
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#employee-record" class="md-nav__link">
-    Employee Record
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example-configuration-summary" class="md-nav__link">
-    Example configuration summary
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#access-control-state_1" class="md-nav__link">
-    Access control state
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visualization_1" class="md-nav__link">
     Visualization
   </a>
   
@@ -281,106 +227,29 @@
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
-      
         <li class="md-nav__item">
-  <a href="#serialization" class="md-nav__link">
-    Serialization
-  </a>
+        <a href="#bank-teller" class="md-nav__link">Introduction</a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+        <nav class="md-nav">
+          <ul class="md-nav__list">
+            <li class="md-nav__item">
+                  <a href="#prerequisites" class="md-nav__link">Prerequisites</a>  
+            </li>
         
-          <li class="md-nav__item">
-  <a href="#graph" class="md-nav__link">
-    Graph
-  </a>
-  
-</li>
+            <li class="md-nav__item">
+                  <a href="#deployment-structure" class="md-nav__link">Deployment Structure</a>
+            </li>
         
-          <li class="md-nav__item">
-  <a href="#prohibitions" class="md-nav__link">
-    Prohibitions
-  </a>
-  
-</li>
+            <li class="md-nav__item">
+                  <a href="#code-wakthrough" class="md-nav__link">Code Wakthrough</a>
+            </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bank-teller" class="md-nav__link">
-    Bank Teller
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
+            <li class="md-nav__item">
+                  <a href="#visualization" class="md-nav__link">Visualization</a>
+            </li>
         
-          <li class="md-nav__item">
-  <a href="#graph-configuration-summary" class="md-nav__link">
-    Graph configuration summary
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#access-control-state" class="md-nav__link">
-    Access control state
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-wakthrough" class="md-nav__link">
-    Code Wakthrough
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visualization" class="md-nav__link">
-    Visualization
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#employee-record" class="md-nav__link">
-    Employee Record
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example-configuration-summary" class="md-nav__link">
-    Example configuration summary
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#access-control-state_1" class="md-nav__link">
-    Access control state
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visualization_1" class="md-nav__link">
-    Visualization
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
+          </ul>
+        </nav>
   
 </li>
       
@@ -402,110 +271,38 @@
       </ul>
     </nav>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#obligations" class="md-nav__link">
-    Obligations
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#obligation-yaml" class="md-nav__link">
-    Obligation YAML
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#loading-obligation" class="md-nav__link">
-    Loading Obligation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#processing-event" class="md-nav__link">
-    Processing Event
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
+</li>      
+ 
     </ul>
   
 </nav>
-                  </div>
-                </div>
-              </div>
+</div>
+</div>
+</div>
             
-          
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                  <h1>Examples</h1>
-                
-                <h3 id="serialization">Serialization</h3>
-<h4 id="graph">Graph</h4>
-<p>Serialize a graph into a json string.</p>
-<pre><code>Graph graph = new MemGraph();
----
-String json = GraphSerializer.toJson(graph);
-</code></pre>
 
-<p>Deserialize a json string to a graph.</p>
-<pre><code>Graph graph = GraphSerializer.fromJson(new MemGraph(), json);
-</code></pre>
+      <div class="md-content">
+        <article class="md-content__inner md-typeset">                
+              <h1>Basic Installation Guide using Docker</h1>
+                  <h3 id="Introduction">Introduction</h3>
 
-<h4 id="prohibitions">Prohibitions</h4>
-<p>Serialize a ProhibitionDAO into a json string.</p>
-<pre><code>ProhibitionsDAO dao = new MemProhibitionsDAO();
----
-String json = ProhibitionsSerializer.toJson(dao);
-</code></pre>
+                      <p>This document is a deployment guide for Score using <a href="https://www.docker.com/">Docker</a>.
+                        This guide is targeted at novice users who need basic deployment configuration.</p>
 
-<p>Deserialize a json string to a ProhibitionsDAO.</p>
-<pre><code>ProhibitionsDAO deDao = ProhibitionsSerializer.fromJson(new MemProhibitionsDAO(), json);
-</code></pre>
+                  <h4 id="prerequisites">Prerequisites</h4><hr>
+                      <p>To install PmAdminTool using Docker, a user requires a <a href="https://hub.docker.com/">Docker Hub</a> account with permission to access <a href="https://hub.docker.com/orgs/pmmaster1docker/repositories">pmmaster1docker</a> repositories.</p>
 
-<h3 id="bank-teller">Bank Teller</h3>
-<h4 id="graph-configuration-summary">Graph configuration summary</h4>
-<ul>
-<li>Users: u1, u2</li>
-<li>An object o1</li>
-<li>Two policy classes: RBAC and Branches<ul>
-<li>RBAC<ul>
-<li>o1 is assigned to accounts</li>
-<li>u1 is a Teller that has read and write permissions on accounts</li>
-<li>u2 is an Auditor that has read permissions on accounts</li>
-</ul>
-</li>
-<li>Branches<ul>
-<li>u1 and u2 are both assigned to the Branch 1 user attribute</li>
-<li>o1 is assigned to the Branch 1 object attribute</li>
-<li>the Branch 1 user attribute has read and write permissions on the Branch 1 object attribute</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="access-control-state">Access control state</h4>
-<ul>
-<li>u1 can read and write o1</li>
-<li>u2 can read o1</li>
-</ul>
+                      <p>If the account does not have permission to access the repositories, this link <a href="https://hub.docker.com/orgs/pmmaster1docker/repositories">pmmaster1docker</a> will not show any repository when it is opened. Please leave a message with your hub account name to request permission.</p>
+
+                      <ul><li><p>To install PmAdminTool using Docker, the user needs to have <a href="https://docs.docker.com/install">Docker CE (Community Edition)</a> installed on the computer in which they want to install PmAdminTool.</p></li></ul>
+
+                      <p>As of June 2019, the free Docker CE supports most host operating systems for desktop users such as Windows, Mac, and popular Linux distributions. However, there are other options; <a href="https://docs.docker.com/toolbox/overview">Docker Toolbox</a>, and <a href="https://docs.docker.com/ee/supported-platforms/">Docker EE (Enterprise Edition)</a>. Docker Toolbox is a legacy solution for older operating systems that do not meet the requirements of Docker CE, and Docker EE (Enterprise Edition) is designed for enterprise development. See <a href="https://docs.docker.com/">Docker Docs</a> for details. It is recommended that Docker Toolbox be avoided as it has been deprecated.</p>
+
+
+                  <h4 id="deployment-structure">Deployment Structure</h4>
+                      <p>Release 1.0.0 of the application uses four containers that interact as shown in the figure below.</p>
+                      <img src="deployment-structure.png" alt="DeploymentStructure">
+
 <hr />
 <h4 id="code-wakthrough">Code Wakthrough</h4>
 <pre><code>// 1. Create a new Graph instance.  For this example, we'll use the `MemGraph` which is an in memory implementation of the Graph interface.
