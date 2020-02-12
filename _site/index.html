@@ -175,21 +175,9 @@
                                     <li class="md-nav__item"><a href="#prerequisites" class="md-nav__link">Prerequisites</a></li>
                                     <li class="md-nav__item"><a href="#deployment-structure" class="md-nav__link">Deployment Structure</a></li>
                                     <li class="md-nav__item"><a href="#deployment" class="md-nav__link">Deployment</a></li>
-                                    <li class="md-nav__item"><a href="#visualization" class="md-nav__link">Visualization</a></li>
                               </ul>
                               </nav>
-                    </li>
-      
-
-                    <li class="md-nav__item">
-                      <a href="#audit" class="md-nav__link">Audit</a>
-                              <nav class="md-nav">
-                              <ul class="md-nav__list">
-                                    <li class="md-nav__item"><a href="#explain" class="md-nav__link">Explain</a></li>
-                              </ul>
-                              </nav>
-                    </li>      
- 
+                    </li>    
                 </ul>
             </nav>
         </div>
@@ -277,19 +265,6 @@ volumes:
 
                       <p>Using a text editor, create a file named docker-compose.yml with the content above. Start your <a href="https://www.docker.com/products/container-runtime">Docker Engine</a>. Change directory to where your yml file is. From that directory, start up the application by executing docker-compose up command.</p>
 
-                  <h4 id="visualization">Visualization</h4>
-                      <p>Below is a visual representation of the graph created in the bank teller example.
-                      <a href="https://pm-master.github.io/policy-machine-core/images/bankteller.png"><img alt="alt text" src="https://pm-master.github.io/policy-machine-core/images/bankteller.png" title="bank teller example" /></a></p>
-
-                  <h4 id="access-control-state_1">Access control state</h4>
-
-<pre><code>Graph graph = new MemGraph();
-
-
-Node salariesNode = graph.createNode(rand.nextLong(), &quot;Salaries&quot;, OA, null);
-
-
-</code></pre>
 
             </article>
           </div>
